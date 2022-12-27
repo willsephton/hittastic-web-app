@@ -1,0 +1,98 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 15 Dec 2022, 09:55:00
+    Author     : thesu
+*/
+.controlpanel1{
+    padding-top: 10vh;
+	display: flex; 
+        flex-flow: row wrap;
+        justify-content: space-around;
+
+}
+.controlpanel2{
+    padding-top: 5vh;
+    text-align: center;
+}
+#header{
+    background-color: lightblue;
+    vertical-align: center;
+}
+
+#title{
+    background-color: cyan;
+    border: 3px solid black;  
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em;
+
+}
+
+#title2{
+    background-color: lightblue;
+    border: 3px solid black;  
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40em;
+
+}
+
+#mainTitle{
+    background-color: cyan;
+    border: 3px solid black;  
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+
+}
+#login{
+    background-color: lightblue;
+    border: 3px solid black;  
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+}
+
+.border{
+    background-color: greenyellow;
+    border: 3px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#formInForm{
+    background-color: greenyellow;
+    border: 3px solid black;    
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+}
+
+.center{
+    text-align: center;
+}
+
+body{
+    font-family: monospace;
+}
+.controlpanel{
+    justify-content: center;
+}
+
+.box{
+    display: inline-block;
+    background-color: greenyellow;
+    border: 3px solid black;    
+    text-align: center;
+}
+
+
+

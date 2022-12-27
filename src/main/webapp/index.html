@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Page</title> <!-- Defines the title of the webpage -->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="stylesheet.css"/> <!-- Links the webpage to the stylesheet -->
+    </head>
+    <body>
+    <h1 id="mainTitle">Welcome to the HitTastic App</h1> <!-- The main title for the webpage -->
+        <div class="controlpanel"> <!-- Divs used to seperate the login box from the title-->
+        <div id="login"> <!--Login box-->
+        <h2>Log In</h2>
+        <form action="./login.jsp" method="post"> <!-- Will run login.jsp after input -->
+            <p>Username:<input type="text" name="username" value="" /></p> <!-- The uesrname parameter-->
+            <p>Password:<input type="text" name="password" value="" /></p> <!-- The password parameter -->
+            <input type="submit" value="Login!" /> <!-- Button used to submit the parameters to the jsp -->
+        </form>
+        </div>
+        </div>
+    </body>
+</html>
